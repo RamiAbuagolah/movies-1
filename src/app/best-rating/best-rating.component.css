@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4c17f;
+}
+
+.container {
+    height: 500px;
+    width: 1000px;
+    font-family: fantasy;
+    overflow: hidden;
+    background: url('../../assets/images/film-img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 500px;
+    width: 400px;
+    background: rgba(0,0,0,0.5);
+}
+
+.content .upper {
+    padding: 20px;
+    color: #fff;
+}
+
+.content .upper p {
+    font-size: 12px;
+}
+
+.content .upper h3 {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.content .middle {
+    padding: 20px;
+    color: #cc8e13;
+}
+
+.content .middle h4 {
+    text-align: center;
+    text-transform: uppaercase;
+    position: relative;
+    line-height: 0;
+    z-index: 1;
+}
+
+.content .middle h4::before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    height: 2px;
+    width: 140px;
+    background: #cc8e13;
+}
+
+.content .middle h4::after {
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    height: 2px;
+    width: 140px;
+    background: #cc8e13;
+}
+
+.content .middle h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content .middle p {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+
+.content .trailer {
+    padding: 10px;
+    margin: 0 30px;
+}
+
+.content .trailer video {
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content .btn {
+    text-align: center;
+}
+
+.content .btn button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background: #cc8e13;
+    font-size: 18px;
+    color: #d4c17f;
+    cursor: pointer;
+    box-shadow: 2px 5px 12px 2px #cc8e13;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 800px;
+    }
+    .content {
+        width: 300px;
+    }
+    .content .middle h4::before {
+        width: 80px;
+    }
+    .content .middle h4::after {
+        width: 80px;
+    }
+    .content .trailer video {
+        height: 100px;
+        width: 100px;
+    }
+}
+
