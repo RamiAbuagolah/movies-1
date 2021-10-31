@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BestRatingComponent } from './best-rating/best-rating.component';
-import { HomeComponent } from './home/home.component';
+import { MainModule } from './main/main.module';
 
 const routes: Routes = [
-  {path:"best",component:BestRatingComponent},
-  {path:"",component:HomeComponent} 
+  {
+    path:'',loadChildren:()=>MainModule
+  }
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
