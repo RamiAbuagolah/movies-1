@@ -10,6 +10,7 @@ import { BestRatingComponent } from './best-rating/best-rating.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { MainRoutingModule } from './main-routing.module';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MainRoutingModule } from './main-routing.module';
     TrendingComponent,
     BestRatingComponent,
     HomeComponent,
-    NavComponent],
+    NavComponent,
+    AboutUsComponent],
   imports: [
     CommonModule,
     MainRoutingModule

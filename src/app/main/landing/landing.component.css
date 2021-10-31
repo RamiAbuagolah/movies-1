@@ -16,7 +16,7 @@
 	min-height: 100vh;
 	transition: .1s;
 	padding: 100px;
-	background-image: url('../../assets/images/la1.jpg');
+	background-image: url('../../../assets/images/la1.jpg');
 	background-size: cover;
 	background-position: center;
 	animation: slide 10s infinite;
@@ -25,22 +25,22 @@
 
 @keyframes slide{
 	20%{
-		background-image: url('../../assets/images/la1.jpg');
+		background-image: url('../../../assets/images/la1.jpg');
 	}
 	30%{
-		background-image: url('../../assets/images/la2.jpg');
+		background-image: url('../../../assets/images/la2.jpg');
 	}
 	
 	50%{
-		background-image: url('../../assets/images/e8.jpg');
+		background-image: url('../../../assets/images/e8.jpg');
 	}
 	
 	70%{
-		background-image: url('../../assets/images/e1.jpg');
+		background-image: url('../../../assets/images/e1.jpg');
 	}
 	
 	86%{
-		background-image: url('../../assets/images/w8.jpg');
+		background-image: url('../../../assets/images/w8.jpg');
 	}
 	
 	
