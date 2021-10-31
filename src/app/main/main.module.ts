@@ -10,17 +10,9 @@ import { BestRatingComponent } from './best-rating/best-rating.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { MainRoutingModule } from './main-routing.module';
-<<<<<<< HEAD
-import { ContactUsComponent } from './contact-us/contact-us.component';
-
-import { SharedModuleModule } from '../Shared/shared-module/shared-module.module';
-
-
-
-=======
 import { AboutUsComponent } from './about-us/about-us.component';
->>>>>>> 94ec47f54649a35a959edfc83b1a09028a4224ef
-
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { SharedModuleModule } from '../Shared/shared-module/shared-module.module';
 
 @NgModule({
   declarations: [ 
@@ -35,9 +27,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     HomeComponent,
     NavComponent,
     ContactUsComponent,
-    ],
     NavComponent,
-    AboutUsComponent],
+    AboutUsComponent ],
   imports: [
     MainRoutingModule,
     

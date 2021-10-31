@@ -16,11 +16,7 @@
 	min-height: 100vh;
 	transition: .1s;
 	padding: 100px;
-<<<<<<< HEAD
 	background-image: url('src/assets/images/la1.jpg');
-=======
-	background-image: url('../../../assets/images/la1.jpg');
->>>>>>> 94ec47f54649a35a959edfc83b1a09028a4224ef
 	background-size: cover;
 	background-position: center;
 	animation: slide 10s infinite;
