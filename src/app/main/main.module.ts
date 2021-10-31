@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { LandingComponent } from './landing/landing.component';
 import { LatestComponent } from './latest/latest.component';
 import { TopComponent } from './top/top.component';
@@ -10,6 +10,12 @@ import { BestRatingComponent } from './best-rating/best-rating.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { MainRoutingModule } from './main-routing.module';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
+import { SharedModuleModule } from '../Shared/shared-module/shared-module.module';
+
+
+
 
 
 @NgModule({
@@ -22,10 +28,18 @@ import { MainRoutingModule } from './main-routing.module';
     TrendingComponent,
     BestRatingComponent,
     HomeComponent,
-    NavComponent],
+    HomeComponent,
+    NavComponent,
+    ContactUsComponent,
+    ],
   imports: [
-    CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    
+    SharedModuleModule
+     
+    
+   
+    
   ]
 })
 export class MainModule { }
